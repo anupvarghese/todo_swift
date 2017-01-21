@@ -99,9 +99,10 @@
 		9E514A8D1E337CC400FECB4D /* todo */ = {
 			isa = PBXGroup;
 			children = (
-				9E514A8E1E337CC400FECB4D /* AppDelegate.swift */,
-				9E514A901E337CC400FECB4D /* ViewController.swift */,
-				9E514A921E337CC400FECB4D /* Main.storyboard */,
+				9E514AC21E337D7D00FECB4D /* Views */,
+				9E514AC11E337D5700FECB4D /* Others */,
+				9E514AC01E337D4400FECB4D /* Controllers */,
+				9E514ABF1E337D2F00FECB4D /* Models */,
 				9E514A981E337CC400FECB4D /* Assets.xcassets */,
 				9E514A9A1E337CC400FECB4D /* LaunchScreen.storyboard */,
 				9E514A9D1E337CC400FECB4D /* Info.plist */,
@@ -126,6 +127,37 @@
 				9E514AB31E337CC400FECB4D /* Info.plist */,
 			);
 			path = todoUITests;
+			sourceTree = "<group>";
+		};
+		9E514ABF1E337D2F00FECB4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E514AC01E337D4400FECB4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E514A901E337CC400FECB4D /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9E514AC11E337D5700FECB4D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9E514A8E1E337CC400FECB4D /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		9E514AC21E337D7D00FECB4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E514A921E337CC400FECB4D /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
